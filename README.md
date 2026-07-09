@@ -57,5 +57,4 @@ Live execution logs can be monitored here: [DigitalOcean App Platform Logs] *(Up
 
 Below is a demonstration of the integrated assistant successfully querying the Vector Store to answer the sample question: "How do I add a YouTube video?"
 
-![Assistant Answering Sample Question](Screenshot%202026-07-09%20090656.png)
-
+![Assistant Answering Sample Question](Screenshot.png)
