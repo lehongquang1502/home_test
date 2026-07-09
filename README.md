@@ -48,11 +48,6 @@ During the synchronization phase to the Gemini Vector Database, chunking is dele
 
 **Rationale:** The source Help Center articles are highly structured, predominantly consisting of step-by-step instructions and bullet points. A 500-token limit provides a sufficient context window to encapsulate a complete troubleshooting step or feature description, thereby preventing context fragmentation. The 50-token overlap ensures that semantic context is preserved across chunk boundaries, providing the optimal retrieval context for the RAG agent to synthesize accurate responses.
 
-## Daily Job Logs
-
-The application is configured for deployment as a Scheduled Job on DigitalOcean. 
-Live execution logs can be monitored here: [DigitalOcean App Platform Logs] *(Update with the actual URL upon deployment)*.
-
 ## Assistant Verification
 
 Below is a demonstration of the integrated assistant successfully querying the Vector Store to answer the sample question: "How do I add a YouTube video?"
